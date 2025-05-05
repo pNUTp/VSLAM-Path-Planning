@@ -1,0 +1,9 @@
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/uninstall.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/auto_robot_uninstall.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/test.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/edit_cache.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/rebuild_cache.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/list_install_components.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/install.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/install/local.dir
+/home/oxalis/AVS_Project/build/auto_robot/CMakeFiles/install/strip.dir
