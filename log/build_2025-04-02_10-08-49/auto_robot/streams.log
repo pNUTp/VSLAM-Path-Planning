@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/oxalis/AVS_Project/build/auto_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oxalis/cognipilot/cranium/install/nxp_cup_vision:/home/oxalis/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake /home/oxalis/AVS_Project/src/auto_robot -DCMAKE_INSTALL_PREFIX=/home/oxalis/AVS_Project/install/auto_robot
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.342s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.588s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.688s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.691s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.765s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.766s] -- Added test 'lint_cmake' to check CMake code style
+[0.767s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.768s] -- Added test 'xmllint' to check XML markup files
+[0.770s] -- Configuring done
+[0.772s] -- Generating done
+[0.773s] -- Build files have been written to: /home/oxalis/AVS_Project/build/auto_robot
+[0.778s] Invoked command in '/home/oxalis/AVS_Project/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oxalis/cognipilot/cranium/install/nxp_cup_vision:/home/oxalis/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake /home/oxalis/AVS_Project/src/auto_robot -DCMAKE_INSTALL_PREFIX=/home/oxalis/AVS_Project/install/auto_robot
+[0.779s] Invoking command in '/home/oxalis/AVS_Project/build/auto_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oxalis/cognipilot/cranium/install/nxp_cup_vision:/home/oxalis/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --build /home/oxalis/AVS_Project/build/auto_robot -- -j8 -l8
+[0.811s] Invoked command in '/home/oxalis/AVS_Project/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oxalis/cognipilot/cranium/install/nxp_cup_vision:/home/oxalis/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --build /home/oxalis/AVS_Project/build/auto_robot -- -j8 -l8
+[0.819s] Invoking command in '/home/oxalis/AVS_Project/build/auto_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oxalis/cognipilot/cranium/install/nxp_cup_vision:/home/oxalis/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --install /home/oxalis/AVS_Project/build/auto_robot
+[0.826s] -- Install configuration: ""
+[0.826s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/launch
+[0.826s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/launch/launch_sim.launch.py
+[0.826s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/launch/rsp.launch.py
+[0.826s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config
+[0.826s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/empty.yaml
+[0.827s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/nav2_params.yaml
+[0.827s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/view_bot.rviz
+[0.827s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/drive_bot.rviz
+[0.827s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/gazebo_params.yaml
+[0.827s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/nav.rviz
+[0.828s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/twist_mux.yaml
+[0.828s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/main.rviz
+[0.828s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/mapper_params_online_async.yaml
+[0.828s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/slam_map.rviz
+[0.828s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/config/map.rviz
+[0.829s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description
+[0.829s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/camera.xacro
+[0.829s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/lidar.xacro
+[0.829s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/depth_camera.xacro
+[0.829s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/face.xacro
+[0.829s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/gazebo_control.xacro
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/robot_core.xacro
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/robot.urdf.xacro
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/description/inertial_macros.xacro
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/worlds
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/worlds/empty.world
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/worlds/maze.world
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/ament_index/resource_index/package_run_dependencies/auto_robot
+[0.830s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/ament_index/resource_index/parent_prefix_path/auto_robot
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/environment/ament_prefix_path.sh
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/environment/ament_prefix_path.dsv
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/environment/path.sh
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/environment/path.dsv
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/local_setup.bash
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/local_setup.sh
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/local_setup.zsh
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/local_setup.dsv
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/package.dsv
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/ament_index/resource_index/packages/auto_robot
+[0.831s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/cmake/auto_robotConfig.cmake
+[0.832s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/cmake/auto_robotConfig-version.cmake
+[0.832s] -- Installing: /home/oxalis/AVS_Project/install/auto_robot/share/auto_robot/package.xml
+[0.834s] Invoked command in '/home/oxalis/AVS_Project/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/oxalis/cognipilot/cranium/install/nxp_cup_vision:/home/oxalis/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --install /home/oxalis/AVS_Project/build/auto_robot
